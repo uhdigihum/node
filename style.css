@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    color: plum;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+body {
+    background-color: black;
+    color: plum;
+}
+
+div {
+  text-align: center;
+}
+
+textarea {
+    width: 80%;
+    outline-color: plum;
+    background-color: black;
+    font-size: larger;
+    color: plum;
+}
+
+.submit {
+    background-color: black;
+    color: plum;
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.clear {
+    background-color: black;
+    color: plum;
+    position: absolute;
+    left: 53.5%;
+    transform: translateX(-50%);
+}
+
+input {
+    color: plum;
+    background-color: black;    
+}
+
+.flex-parent {
+    display: flex;
+  }
+  .flex-child {
+    flex: 1;
+}
+
+#myfile {
+    margin-left: 10%;
+    color: plum;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+  
+a:visited {
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.about {
+  position: absolute;
+  bottom: 5%;
+left: 5%;
+}
+
+.description {
+  text-align: center;
+  width: 50ch;
+  position: absolute;
+  transform: translateY(-50%);
+  bottom: 50%;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.support {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}

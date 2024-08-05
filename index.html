@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HeLI-OTS</title>
+    </head>
+    <body class="fade-in">
+        <a class="about" href="about/about.html">about</a>
+        <h1>HeLI-OTS</h1>
+        <form>
+            <div class="parent flex-parent">
+                <div class="child flex-child">
+                    <p>Input:</p>
+                    <textarea id="inputArea" rows="15" cols="50"></textarea>
+                    <input type="file" id="myfile" accept=".txt, .text">
+                    <br>
+                </div>
+                <div class="child flex-child">
+                    <p>Output:</p>
+                    <textarea readonly id="outputArea" rows="15" cols="50"></textarea>
+                    <br>
+                    <button type="button" onclick="download()">Download</button>
+                </div>
+            </div>
+            <button class="clear" type="button" onclick="clearFile()">Clear</button>
+            <button class="submit" type="button" id='btnsubmit' onclick="submitForm()" name='submit'>Submit</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
